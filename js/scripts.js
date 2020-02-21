@@ -7,14 +7,31 @@ $(document).ready(function() {
     var hallow = $("select#hallow").val(); 
 
 
-    if (pet === "cat") {
-      $('#ravenclaw').show();
-    } else {
-      $('#griffindor').show();
-    }
     
-
+    
+    if (skills === "info" && pet === "owl" && saturday === "library" && hallow === "wand") {
+      $('#griffindor').show();
+    } 
    
+    if (skills === "friends" && pet === "owl" && saturday === "library" && hallow === "wand") {
+      $('#griffindor').show();
+    } 
+
+    if (skills === "secrets" && pet === "owl" && saturday === "library" && hallow === "wand") {
+      $('#griffindor').show();
+    } 
+    
+    if (skills === "want" && pet === "owl" && saturday === "library" && hallow === "wand") {
+      $('#slytherin').show();
+    } 
+    
+    if (skills === "want" && pet === "owl" && saturday === "library" && hallow === "wand") {
+      $('#slytherin').show();
+    } 
+    
+   
+
+
   
     
     event.preventDefault();
