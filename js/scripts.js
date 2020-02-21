@@ -7,8 +7,9 @@ $(document).ready(function() {
     var hallow = $("select#hallow").val(); 
 
 
-    
-    
+
+
+  
     if (skills === "info" && saturday === "library") {
       $('#ravenclaw').show();
     } 
@@ -24,7 +25,6 @@ $(document).ready(function() {
     if (skills === "info" && saturday === "room") {
       $('#griffindor').show();
     } 
-
   
     if (skills === "friends" && saturday === "library") {
       $('#hufflepuff').show();
@@ -42,8 +42,6 @@ $(document).ready(function() {
       $('#ravenclaw').show();
     } 
 
-    
-
     if (skills === "want" && saturday === "library") {
       $('#ravenclaw').show();
     } 
@@ -59,7 +57,6 @@ $(document).ready(function() {
     if (skills === "want" && saturday === "room") {
       $('#griffindor').show();
     } 
-
 
     if (skills === "secrets" && saturday === "library") {
       $('#griffindor').show();
