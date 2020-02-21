@@ -9,24 +9,66 @@
   </head>
   <body>
     <div class="container">
+      <br />
       <h1>Which Harry Potter House Are You? </h1>
         <p>To tell you which house you are in, we need to know a little about you:</p>
 
         <form id="harry potter">
-          <label for="age">Age</label>
-          <input id="age" type="text">
 
-          <label for="gender">Gender</label>
-          <select id="gender">
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-          </select>
+          <div class="form-group">
+          <label for="skills">Which of your skills are you most proud of?</label><br>
+          <select id="skills">
+            <option value="Info">My ability to absorb new information.</option>
+            <option value="Friends">My ability to make new friends.</option>
+            <option value="Want">My ability to get what I want.</option>
+            <option value="Secrets">My ability to keep secrets..</option>
+          </div>
         
+
+         <div class="form-group">
+          <label for="skills">Which of your skills are you most proud of?</label>
+          <select id="skills">
+          </div>
+
+          <div class="form-group">  
+          <label for="pet">You're allowed a pet at Hogwarts: an owl, a cat, or a toad. Which do you bring?</label><br />
+          <select id="pet"> 
+            <option value="Owl">Owl</option>
+            <option value="Cat">Cat</option>
+            <option value="Toad">Toad</option>
+          </div>
+          <br />
+          <br />
+
+          <div class="form-group">
+            <label for="skills">Which of your skills are you most proud of?</label>
+            <select id="skills">
+            </div>
+
+          <div class="form-group">  
+            <label for="Saturday">It's Saturday, you've finished your homework, and you have some free time. You decide to spend some time away from your common room. Where do you go?</label>
+            <select id="Saturday"> 
+              <option value="Forest">The Forbidden Forest</option>
+              <option value="Library">The library</option>
+              <option value="Kitchen">The kitchens</option>
+              <option value="Room">The Room of Requirement</option>
+            </div>
+            <br />
+           
+
+        
+      
+
+          
+          
+
+          
+        </select>
           <button type="submit" class="btn">Tell me my character</button>
        </form>
   
         <div id="result">
-          <p>Congrates! You belong in the $<span id="house"></span> This is great news.</p>
+          <p>Congrats! You belong in the <span id="house"></span> This is great news.</p>
         </div>
       </div>
     </body>
