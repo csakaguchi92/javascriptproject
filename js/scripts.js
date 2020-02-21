@@ -1,16 +1,21 @@
 $(document).ready(function() {
 
-  $("form#harrypotter").submit(function() {
+  $("form#harrypotter").submit(function(event) {
     var skills = $("select#skills").val(); 
     var pet = $("select#pet").val(); 
     var saturday = $("select#saturday").val(); 
     var hallow = $("select#hallow").val(); 
 
 
-    if (skills ==='info')  {
-    } 
+    if (pet === "cat") {
+      $('#ravenclaw').show();
+    } else {
+      $('#griffindor').show();
+    }
+    
 
-    $('#Ravenclaw').show();
+   
+  
     
     event.preventDefault();
 
