@@ -1,0 +1,23 @@
+.btn {
+  display: block;
+  outline: black;
+  outline-color: black;
+  outline-style: double;
+  margin-top: 50px;
+}
+
+#result {
+  display: none;
+}
+
+div {
+  padding: 25px 50px 30px 25px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#ravenclaw {
+  display: none;
+}
