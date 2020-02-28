@@ -1,14 +1,11 @@
 $(document).ready(function() {
-
   $("form#harrypotter").submit(function(event) {
-    var skills = $("select#skills").val(); 
-    var pet = $("select#pet").val(); 
-    var saturday = $("select#saturday").val(); 
-    var hallow = $("select#hallow").val(); 
+    $('#slytherin').hide();
+    $('#hufflepuff').hide();
+    $('#griffindor').hide();
+    $('#ravenclaw').hide();
 
-
-
-
+    
   
     if (skills === "info" && saturday === "library") {
       $('#ravenclaw').show();
@@ -73,14 +70,6 @@ $(document).ready(function() {
     if (skills === "secrets" && saturday === "room") {
       $('#hufflepuff').show();
     } 
-
-   
-   
-
-
-
-  
-    
 
 
     event.preventDefault();
